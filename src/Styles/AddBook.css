@@ -1,0 +1,78 @@
+.form_flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.addbook_title{
+    text-align: center;
+    text-decoration: underline;
+    font-weight: bold;
+    padding: 30px;
+}
+
+.addbook_form{
+    border: 0px solid black;
+    border-radius: 5px;
+    background-color: rgb(169, 239, 216);
+    width: 400px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.addbook_form:hover{
+    background-color: rgb(179, 233, 206);
+}
+
+
+.lab{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 17px;
+    font-weight: bold;
+    color: rgb(77, 76, 76);
+}
+
+.inp{
+    border: 1px solid grey;
+    height: 35px;
+    width: 320px;
+    margin-bottom: 10px;
+    border-radius: 8px;
+    margin-top: 4px;
+}
+
+.addform_btn{
+    height: 35px;
+    width: 180px;
+    border-radius: 8px;
+    border: 0px;
+    background: linear-gradient(to left, #32cd32 10%, #4169e1 80%, #517dff 100%);
+    font-size: 15px;
+    font-weight:bold;
+    color: rgb(54, 70, 31);
+}
+
+.addform_btn:hover{
+    background: linear-gradient(to left, #32cd32 30%, #4169e1 90%, #517dff 100%);
+}
+
+.addform_btn:active{
+    background: linear-gradient(to left, #e269ef 30%, #f061b9 90%);
+}
+
+.addBook_btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.addBooks{
+    height: 660px;
+    margin-top: -110px;
+    background:linear-gradient(to right , rgb(175, 253, 175) 40% , rgb(192, 234, 248) 60% );
+}
+

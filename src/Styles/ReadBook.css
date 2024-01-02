@@ -1,0 +1,90 @@
+
+
+.card_2{
+    border: 0px solid black;
+    background-color: rgb(235, 206, 235);
+    height: 543px;
+    margin-top: -150px;
+    padding-top: 180px;
+    display: flex;
+    justify-content: center;
+}
+
+.read_title{
+    text-align: center;
+    margin-top: -50px;
+    text-decoration: underline;
+}
+
+.card{
+    border: 0px solid black;
+    height: 430px;
+    width: 200vh;
+    display: flex;
+    justify-content: space-around;
+    align-items:center;
+    border-radius: 5px;
+    padding: 10px;
+    background: linear-gradient(to left , yellow  , pink , rgb(247, 120, 120) );
+}
+
+.read_thumbnile{
+    height: 300px;
+    margin-left: 20px;
+}
+
+.description{
+    margin-left: 20px;
+}
+
+.s_title {
+    font-size: 21px;
+    font-weight: bold;
+}
+
+.l_title{
+    font-size: 21px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.read_btn{
+    height: 34px;
+    width: 90px;
+    border-radius: 5px;
+    border: 1px solid grey;
+    background-color: red;
+    font-weight: bold;
+}
+
+.read_btn:hover{
+    background-color: rgb(237, 0, 0);
+}
+
+.read_add_fav_btn{
+    background-color: rgb(38, 255, 0);
+    border-radius: 5px;
+    border: 1px solid grey;
+    font-weight: bold;
+    height: 36px;
+    width: 130px;
+}
+
+.read_add_fav_btn:hover{
+    background-color: rgb(54, 241, 21);
+}
+.add_btn{
+    border-radius: 5px;
+    margin-top: -3px;
+}
+
+.add_readBtn{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    height: 34px;
+    width: 400px;
+
+}
+
+

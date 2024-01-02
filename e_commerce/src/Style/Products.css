@@ -1,0 +1,40 @@
+.product_container{
+    border: 0px solid black;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: rgb(246, 246, 246);
+}
+
+.img_container{
+    border: 1px solid black;
+    border-radius: 5px;
+}
+.prodct_img{
+    /* height: 400px; */
+    border-radius: 5px;
+}
+
+.description{
+    font-size: 19px;
+}
+
+.product_content{
+    border: 1px solid black;
+    width: 900px;
+}
+
+.brandName{
+    font-size: 25px;
+}
+
+.btn_red{
+    color: red;
+}
+
+.btn_green{
+    background-color:yellow;
+}
+
+
+

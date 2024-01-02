@@ -1,0 +1,116 @@
+/* 
+.landingPage , .dis , h1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    font-family:'Times New Roman', Times, serif;
+    color: fuchsia;
+}
+
+.loginoptions{
+    display: flex;
+    align-items:center;
+    justify-content:space-evenly;
+   
+}
+
+.loginoptions , button{
+    font-size: large;
+    text-decoration: none;
+    padding: 5px;
+    border-radius: 5px;
+    border: 0px;
+    margin-top: 20px;
+
+}
+
+button{
+    border: 1px solid black;
+    width: 150px;
+    font-family:monospace;
+    font-weight: bold;
+    background-color: rgb(104, 232, 255);
+}
+
+button:active{
+    background-color: rgb(255, 195, 90);
+    border: 0px;
+
+}
+
+
+.border{
+    border: 0px solid black;
+    height: 400px;
+    width: 400px;
+    border-radius: 5px;
+    background-color: rgb(246, 207, 157);
+}
+
+.border:hover{
+    background-color: rgb(134, 197, 249) ;
+}
+
+.dis{
+    margin-top: 130px;
+}
+ */
+
+ .homePage{
+    border: 0px solid black;
+    height: 717px;
+    background-color: rgb(139, 196, 196);
+    margin-top: -4px;
+ }
+
+ .landingPage , h1{
+    text-align: center;
+    padding-top: 25px;
+    font-size: 12vh;
+ }
+
+
+ .btn{
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    margin-top: 90px;
+    margin-right: 100px;
+ }
+
+.loginoptions{
+    margin-left: 120px;
+    height: 30px;
+    width: 125px;
+    text-decoration: none;
+    border-radius: 7px;
+    border: 1px solid grey;
+    font-weight: bold;
+    background-color:orchid;
+}
+
+.loginoptions:hover{
+    background-color: goldenrod;
+    transition: all 2s;
+    transform: scale(1.1);
+    
+}
+
+.loginoptions:active{
+    background-color:orangered;
+}
+
+.image{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.img{
+    height: 200px;   
+}
+
+.img:hover{
+    transform: scale(1.2);
+    transition: all 5s;
+}

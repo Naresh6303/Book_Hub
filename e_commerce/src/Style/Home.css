@@ -1,0 +1,95 @@
+.proCard{
+    border: 0.5px solid black;
+    width: 310px;
+    text-align: center;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    background-color: grey;
+}
+
+.product-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 9px;
+}
+
+.home_title{
+    text-align: center;
+    font-weight: bold;
+    font-size: 30px;
+    text-decoration: underline;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.description{
+    font-size: 17px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-bottom: 10px;
+}
+
+.price{
+    margin-bottom: 10px;
+}
+
+.mrp{
+    font-weight: bold;
+}
+
+.priceProduct{
+    font-size: 18px;
+    font-weight: bold;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.product_img{
+    height: 200px;
+    width: 295px;
+    border-radius: 5px;
+    box-shadow: 1px 1px 1px 1px;
+}
+
+.bottomBar{
+    border: 0px solid black;
+    height: 105px;
+    background-color: rgb(20, 20, 20);
+}
+
+.brand{
+    font-size: 20px;
+    font-weight: bold;
+    margin: 10px;
+}
+
+.view_btn{
+    padding: 7px 25px;
+    border: 0px;
+    border-radius: 5px;
+    background-color: whitesmoke;
+    box-shadow: 1px 1px 1px 1px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.view_btn:hover{
+    background-color: rgb(217, 217, 217);
+    transform: scaleX(1.1);
+    transition: all 2s;
+}
+
+.bottmomFlex{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-top: 40px;
+}
+
+.bottomText{
+    color: rgb(245, 245, 245);
+    font-family: sans-serif;
+}
+
+.BtnLink{
+    text-decoration: none;
+}

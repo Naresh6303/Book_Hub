@@ -1,0 +1,252 @@
+.home{
+    border: 0px solid black;
+    height: 100%;
+    margin-top: -85px;
+}
+
+.sec1{
+    border: 1px solid white;
+    height: 660px;
+    width: 100%;
+    background-image: url(https://www.greenwichlibrary.org/wp-content/uploads/2021/06/IMG_5534-scaled.jpg);
+    background-size:cover;
+}
+
+.text{
+    border: 0px solid black;
+    height: 264px;
+    width: 1007px;
+    padding: 35px;
+    background-color: rgba(255,255,255,.89);;    
+}
+
+.hr{
+    width: 450px;
+    margin-left: 32px;
+    margin-top: -50px;
+    border-bottom: 2px #EB9532 solid;
+}
+
+.dgLibrary{
+    font-size: 10vh;
+    font-weight: lighter;
+    padding-left: 35px;
+    margin-top: 21px;
+}
+
+.sec1_desc{
+    margin-top: 275px;
+}
+
+.description{
+    font-size: 22px;
+    font-family: sans-serif;
+    padding-left: 35px;
+    line-height: 40px;
+}
+
+.bton {
+    border: 0px solid black;
+    height: 39px;
+    width: 158px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: #EB9532;
+    margin-left: 884px;
+    margin-top: 40px;
+    overflow: hidden;
+    position: relative;
+    transition: all 0.9s ease; 
+    color: white;
+    font-weight: bold;
+    font-family: sans-serif;
+  }
+  
+  .bton::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -28%;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(249, 246, 246, 0.2);
+    transition: all 0.9s ease; 
+  }
+  
+  .bton:hover::before {
+    left: 100%;
+  }
+
+  /*____________________________section 2 __________________________*/
+
+  .sec2{
+    border: 0px solid black;
+    height: 420px;
+    width: 170vh;
+    background-position: center;
+    background-image: url(https://www.greenwichlibrary.org/wp-content/uploads/2023/11/Cos-Cob-small.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+}
+
+.sec2_img{
+    border: 0px solid black;
+    height: 700px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.sec2_dec{
+    border: 0px solid black;
+    width: 122vh;
+    height: 350px;
+    padding: 20px;
+    background-color: #FFF;
+    box-shadow: 2px 2px 24px 0 rgba(0,0,0,.1);
+}
+
+.flex{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 285px;
+}
+
+.about{
+    font-family: sans-serif;
+    font-weight:normal;
+    margin-left: 20px;
+}
+
+.title_about{
+    margin-left: 20px;
+    font-size: 6.5vh;
+    font-weight:normal;
+    margin-top: 5px;
+}
+
+.abt_hr{
+    border-bottom-color: #4DB79F;
+    width: 555px;
+    margin-left: 19px;
+    margin-top: -42px;
+}
+
+.abt_desc{
+    font-size: 22px;
+    font-family: sans-serif;
+    font-weight: 400;
+    line-height: 40px;
+    margin-left: 19px;
+}
+
+.abt_bton{
+    border: 0px solid black;
+    height: 39px;
+    width: 158px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: #4DB79F;
+    margin-left: 754px;
+    margin-top: 28px;
+    overflow: hidden;
+    position: relative;
+    transition: all 0.9s ease; 
+    color: white;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+
+.abt_bton::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -28%;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(249, 246, 246, 0.2);
+    transition: all 0.9s ease; 
+  }
+  
+  .abt_bton:hover::before {
+    left: 100%;
+  }
+
+  /*______________________________________section-3 ____________________________________________*/
+
+  .sec3_img{
+    height: 460px;
+    background-image: url('https://www.greenwichlibrary.org/wp-content/uploads/2016/04/Pattern-BG-Main.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 190px;
+  }
+
+  .sec3_desc{
+    border: 0px solid black;
+    text-align: center;
+    background-color: #019875;
+    height: 345px;
+    width: 190vh;
+    margin-top: 50px;
+    padding: 10px;
+  }
+
+  .sec3_cont{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .sec3_title{
+    font-size: 6.8vh;
+    font-weight:normal;
+    margin-top: 5px;
+    color: aliceblue;
+    margin-top: 30px;
+  }
+
+  .sec3Desc{
+    color:aliceblue ;
+    font-size: 21px;
+    font-family: sans-serif;
+    margin-top: -20px;
+  }
+
+  .sec3_bton{
+    border: 0px solid black;
+    height: 44px;
+    width: 255px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: rgb(255, 255, 255);
+    margin-left: 574px;
+    margin-top: 39px;
+    overflow: hidden;
+    position: relative;
+    transition: all 0.9s ease; 
+    color: black;
+    font-weight: bold;
+    font-family: sans-serif;
+  }
+
+  .sec3_bton::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -18%;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(202, 158, 158, 0.2);
+    transition: all 0.9s ease; 
+  }
+  
+  .sec3_bton:hover::before {
+    left: 100%;
+  }
+
+  

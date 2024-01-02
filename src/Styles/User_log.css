@@ -1,0 +1,67 @@
+.adminLogin{
+    border: 0px solid black;
+    height: 718px;
+    background: linear-gradient(to right, #ff4500 10%, #ffa500 20%, #ffa500 10%, #ffd700 40%, #ffd700 10%, #32cd32 60%, #32cd32 10%, #4169e1 80%, #517dff 100%);
+    margin-top: -55px;
+}
+
+.adminForm{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 110px;
+
+}
+
+.inputParent{
+    height: 59px;
+}
+
+.lable{
+    margin-top: 30px;
+    margin-bottom: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.input{
+    height: 41px;
+    width: 500px;
+    border-radius: 7px;
+    border: 1px solid grey;
+    font-weight: bold;
+    color: black;
+    background-color: #effdc9;
+}
+
+.button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btnn{
+    height: 40px;
+    width:430px;
+    margin-top: 70px;
+    font-weight: bold;
+    font-size: large;
+    border-radius: 8px;
+    border: 0px ;
+    background: linear-gradient(to left ,#ff4500 10%, #ffa500 20%, #ffa500 10%, #ffd700 40%, #ffd700 10%, #32cd32 60%, #32cd32 10%, #4169e1 80%, #517dff 100%);
+}
+
+.btnn:hover{
+    background: linear-gradient(to top ,#ff4500 10%, #ffa500 20%, #ffa500 10%, #ffd700 40%, #ffd700 10%, #32cd32 60%, #32cd32 10%, #4169e1 80%, #517dff 100%);
+    transition: all 2s;
+}
+
+.btnn:active{
+    background: linear-gradient(to bottom ,#ff4500 10%, #ffa500 20%, #ffa500 10%, #ffd700 40%, #ffd700 10%, #32cd32 60%, #32cd32 10%, #4169e1 80%, #517dff 100%);
+
+}
+
+
+
+
